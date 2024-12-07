@@ -10,24 +10,23 @@ const About = () => {
         <div className="about-container">
           <div className="about-card">
             <div>
-              <h4 className="h-color">⚡ Commands</h4>
+              <h4 className="h-color">⚡ Performance</h4>
               <p className="p-color">
-                We have more than 200 commands support in this bot.
+                We are using only the best software and apis for your experiance!
               </p>
               <hr />
             </div>
             <div>
               <h4 className="h-color">✉️ 24/7 Support</h4>
               <p className="p-color">
-                The biggest support community server for the bot available for
-                you anytime.
+                We support you over our Support Discord in any possible way needed!
               </p>
               <hr />
             </div>
             <div>
               <h4 className="h-color">✏️ Customization</h4>
               <p className="p-color">
-                Fully customizable discord bot completely FREE!
+                We support custom commands and features, created by the team of Foxybot!
               </p>
               <hr />
             </div>
@@ -41,15 +40,15 @@ const About = () => {
 
         <section className="about-stats">
           <div className="about-stats-card">
-            <h4 className="h-color">17k+</h4>
+            <h4 className="h-color">100+</h4>
             <p className="p-color">Total Servers</p>
           </div>
           <div className="about-stats-card">
-            <h4 className="h-color">94k+</h4>
+            <h4 className="h-color">80+</h4>
             <p className="p-color">Total Users</p>
           </div>
           <div className="about-stats-card">
-            <h4 className="h-color">375k+</h4>
+            <h4 className="h-color">40+</h4>
             <p className="p-color">Total Commands</p>
           </div>
         </section>
