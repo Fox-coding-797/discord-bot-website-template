@@ -11,7 +11,7 @@ const JoinNow = () => {
           Invite our bot to your Discord server!{" "}
         </div>
         <button className="btn">
-          <Link className="h-color no-decoration" href="#">
+          <Link className="h-color no-decoration" href="https://discord.com/application-directory/790472763902918667">
             Invite now!
           </Link>
         </button>
