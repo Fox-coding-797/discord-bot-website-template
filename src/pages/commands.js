@@ -39,86 +39,20 @@ export default function Commands() {
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>!kick {member} [reason]</kbd> -{" "}
+                  <span className="p-color">Kicks a user form the server</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>!ban {user} [days] [reason]</kbd> -{" "}
+                  <span className="p-color">Bans a user from the server</span>
                 </li>
                 <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-              </ul>
-            </div>
-          </section>
-          <input type="radio" name="accordion" id="cb2" />
-          <section className="box">
-            <label className="box-title p-color" htmlFor="cb2">
-              Fun 🐛
-            </label>
-            <label className="box-close" htmlFor="acc-close"></label>
-            <div className="box-content p-color">
-              <ul>
-                <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>!report [text]</kbd> -{" "}
+                  <span className="p-color">Reports a users text</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-              </ul>
-            </div>
-          </section>
-          <input type="radio" name="accordion" id="cb3" />
-          <section className="box">
-            <label className="box-title p-color" htmlFor="cb3">
-              Customization 👀
-            </label>
-            <label className="box-close" htmlFor="acc-close"></label>
-            <div className="box-content p-color">
-              <ul>
-                <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-              </ul>
-            </div>
-          </section>
-
-          <input type="radio" name="accordion" id="cb4" />
-          <section className="box">
-            <label className="box-title p-color" htmlFor="cb4">
-              Gameplay 🎲
-            </label>
-            <label className="box-close" htmlFor="acc-close"></label>
-            <div className="box-content p-color">
-              <ul>
-                <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>!cleanup [type] [ammount]</kbd> -{" "}
+                  <span className="p-color">Cleans a certant type of messages and deletes the ammount provided</span>
                 </li>
               </ul>
             </div>
@@ -133,16 +67,12 @@ export default function Commands() {
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>!imgur [search] {image}</kbd> -{" "}
+                  <span className="p-color">Sends a image via the Imgur-API</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>!gif [image]</kbd> -{" "}
+                  <span className="p-color">Sends an gif via the Giphy API</span>
                 </li>
               </ul>
             </div>
