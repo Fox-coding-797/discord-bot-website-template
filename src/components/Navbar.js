@@ -8,7 +8,7 @@ const Navbar = () => {
           <ul>
             <li>
               <Link className="h-color" href="/">
-                BOT
+                FOXYBOT
               </Link>
             </li>
           </ul>
@@ -28,10 +28,10 @@ const Navbar = () => {
             <li>
               <Link
                 className="p-color"
-                href="https://github.com/preetsuthar17/discord-bot-website-template"
+                href="https://discord.gg/6uDNTSsKxk"
                 target="_blank"
               >
-                /source-code
+                /join-server
               </Link>
             </li>
           </ul>
