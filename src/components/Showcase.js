@@ -10,26 +10,25 @@ const Showcase = () => {
       animate={{ opacity: 1 }}
     >
       <main className="showcase">
-        <h1 className="showcase-header h-color">BOT</h1>
+        <h1 className="showcase-header h-color">Foxybot</h1>
         <h2 className="showcase-header-text h-color">
-          The only discord bot you need!
+          Foxybot, the best bot for everyone!
         </h2>
         <p className="showcase-para p-color">
-          One of the awesome discord bot with tons of commands that will fill
-          your needs in your discord server.
+          Foxybot is the best Discord Bot for everyday usecase on all discord-servers! It uses the most advanced APIs and even some music apis. Feel free to add Foxybot to your Server!
         </p>
 
-        <span className="p-color">Bot is online!</span>
+        <span className="p-color">Foxybot is online!</span>
         <div className="showcase-btn">
           <button className="btn">
             <Link className="h-color no-decoration" href="#">
-              Invite now!
+              Add now!
             </Link>
           </button>
 
           <button className="btn">
             <Link className="h-color no-decoration" href="#">
-              Join server!
+              Get Support!
             </Link>
           </button>
         </div>
